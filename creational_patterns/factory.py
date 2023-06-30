@@ -48,7 +48,7 @@ def main():
     # Note that the actual type is Concrete
     concrete.identify()
 
-    # Main only depends on the abstract class. It does not know or care about the concrete classes.
+    # Main only depends on the abstract class and the factory class. It does not know or care about the concrete classes.
 
 if __name__ == '__main__':
     main()
